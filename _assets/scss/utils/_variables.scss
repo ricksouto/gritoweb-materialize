@@ -1,0 +1,94 @@
+// Colors
+// ==========================================================================
+
+//global colors
+$primary-color: #3f51b5;
+$primary-color-light: lighten($primary-color, 15%);
+$primary-color-dark: darken($primary-color, 15%);
+
+$primary-text-color: #212121;
+
+$secondary-color: #00796B;
+$success-color: #4CAF50;
+$error-color: #e51c23;
+
+$placeholder-text-color: #90a4ae;
+
+// Fonts
+// ==========================================================================
+$roboto-font-path: "../_assets/fonts/roboto/";
+
+// Breakpoints
+$small-screen: 600px;
+$medium-screen: 992px;
+$large-screen: 1200px;
+
+// Buttons
+// ==========================================================================
+
+// Shared styles
+$button-border: none;
+$button-background-focus: lighten($secondary-color, 4%);
+$button-font-size: 1rem;
+$button-icon-font-size: 1.3rem;
+$button-height: 36px;
+$button-padding: 0 2rem;
+$button-radius: 2px;
+
+// Disabled styles
+$button-disabled-background: #DFDFDF;
+$button-disabled-color: #9F9F9F;
+
+// Raised buttons
+$button-raised-background: $secondary-color;
+$button-raised-background-hover: lighten($button-raised-background, 5%);
+$button-raised-color: #fff;
+
+// Large buttons
+$button-large-icon-font-size: 1.6rem;
+$button-large-height: $button-height * 1.5;
+
+// Flat buttons
+$button-flat-color: #343434;
+$button-flat-disabled-color: lighten(#999, 10%);
+
+// Floating buttons
+$button-floating-background: $secondary-color;
+$button-floating-background-hover: $button-floating-background;
+$button-floating-color: #fff;
+$button-floating-size: 40px;
+$button-floating-large-size: 56px;
+$button-floating-radius: 50%;
+
+
+// Forms
+// ==========================================================================
+
+// Text Inputs + Textarea
+$input-height: 3rem;
+$input-border-color: #607d8b;
+$input-border: 1px solid $input-border-color;
+$input-background: #fff;
+$input-background-focus: #fff;
+$input-error-color: $error-color;
+$input-success-color: $success-color;
+$input-focus-color: $secondary-color;
+$input-font-size: 1rem;
+$input-margin-bottom: 20px;
+$input-margin: 0 0 $input-margin-bottom 0;
+$input-padding: 0;
+$input-transition: all .3s;
+$label-font-size: .8rem;
+$input-disabled-color: rgba(0,0,0, .42);
+$input-disabled-solid-color: #949494;
+$input-disabled-border: 1px dotted $input-disabled-color;
+$input-invalid-border: 1px solid $input-error-color;
+$placeholder-text-color: lighten($input-border-color, 20%);
+
+
+// Flow Text
+// ==========================================================================
+
+$range : $large-screen - $small-screen;
+$intervals: 20;
+$interval-size: $range / $intervals;
