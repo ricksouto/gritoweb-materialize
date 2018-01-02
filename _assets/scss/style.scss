@@ -1,21 +1,21 @@
 @charset "UTF-8";
-//vendor
-@import "vendor/normalize";
+
+//Materialize override components
+@import "vendor/components/color";
+@import "vendor/components/variables";
 
 //utils
 @import "utils/variables";
-@import "utils/Breakpoints";
+
+//Materialize
+@import "vendor/materialize.scss";
 
 // Base;
 @import "base/global";
-@import "base/grid";
-@import "base/roboto";
-@import "base/typography";
 
 // components
-@import "components/buttons";
-@import "components/modal";
-@import "components/forms";
+@import "components/navbar";
 
 //layout
 @import "layout/header";
+@import "layout/footer";
