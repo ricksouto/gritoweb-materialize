@@ -7,6 +7,7 @@ var gulp          = require('gulp'),
     concat        = require('gulp-concat'),
     sourcemaps    = require('gulp-sourcemaps'),
     uglify        = require('gulp-uglify-es').default;
+    browserSync = require('browser-sync');
 
 //js path
 var jsfiles = [
